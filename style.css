@@ -1,0 +1,140 @@
+<style>
+head{
+    text-align: center;
+    color: green;
+        }
+        .text{
+
+            text-align: center;
+            color: blue;
+            
+        }
+        h3{
+            background-color: blueviolet;
+            text-align:center;
+            color: white;
+        }
+        
+        .photo-frame{
+            width: 300px;
+            height: 200px;
+            border: 10px solid greenyellow;
+            border-radius: 20px;
+            position: relative;
+            margin: 10px;
+            overflow:hidden;
+            
+        }
+        .photo-box{
+            width: 300px;
+            height: 200px;
+            border: 10px solid greenyellow;
+            border-radius: 20px;
+            position: relative;
+            margin: 10px;
+            overflow:hidden;  
+        }
+        .photo-ghor{
+            width: 300px;
+            height: 200px;
+            border: 10px solid greenyellow;
+            border-radius: 20px;
+            position: relative;
+            margin: 10px;
+            overflow:hidden;   
+        }
+        .photo-frame .photo img{
+            width: 100%;
+            height: 100%;
+        }
+        .photo-box .pic img{
+            width: 300px;
+            height: 200px;
+        }
+        .photo-ghor .sobi img{
+            width: 300px;
+            height: 200px;
+        }
+        .photo-box .picture img{
+            width: 300px;
+            height: 200px;
+        }
+        .photo-box .pic-2 img{
+            width: 300px;
+            height: 200px;
+        }
+        .photo-detail{
+            height: 200px;
+            width: 300px;
+            position: absolute;
+            top: 0;
+            display: none;
+        }
+        .pic-detail{
+            height: 200px;
+            width: 300px;
+            position: absolute;
+            top: 0;
+            display: none;  
+        }
+        .photo-frame:hover .photo-detail{
+            display: block;
+            background-color: violet;
+           
+        }
+        /*.photo-box:hover .pic-detail{
+            display: block;
+            background-color:yellow;
+        }*/
+         
+        
+        .photo-frame:hover .photo-detail h3{
+            color: wheat;
+            background-color: rgb(13, 7, 36);
+            align: center;
+        }
+        .photo-box:hover .pic-detail h3{
+            color: wheat;
+            background-color: rgb(13, 7, 36);
+            align: center;
+        }
+        .photo-frame:hover .photo-detail p{
+            color: black;
+            text-align:center;
+            margin: 2%;
+        }
+        .photo-box:hover .pic-detail p{
+            color: black;
+            text-align:center;
+            margin: 2%;
+        }
+        .photo-album{
+            display:flex;
+            flex-wrap:wrap;
+        
+        }
+        .photo-gallery{
+            display:flex;
+            flex-wrap:wrap;
+        }
+        .photo-frame:hover .photo img{
+            transform: skew(30deg);
+            transition: transform 5s;
+        }
+        .photo-box:hover .pic img{
+            transform: skew(30deg);
+            transition: transform 5s;
+        }
+        .photo-ghor:hover .sobi img{
+            transform:scaleY(2);
+            transition: transform 5s;
+        }
+        .photo-box:hover .picture img{
+            transform:rotate(360deg);
+            transition: transform 5s;
+        }
+        .photo-box:hover .pic-2 img{
+            transform: scale3d(2.5, 1.2, 0.3);
+            transition: transform 5s;
+        }
+    </style>
